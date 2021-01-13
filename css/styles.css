@@ -1,0 +1,55 @@
+/* Background Colors */
+:root {
+  --dark-color: #242424;
+  --light-color: #FFFFFF;
+}
+
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background: url(../assets/pianopic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+h1 {
+  font-size: 4rem;
+  
+}
+h2 {
+  font-size: 2.7rem;
+}
+
+
+
+/* Navbar */
+
+.navbar {
+  background-color: var(--dark-color);
+  padding: 1.7rem 0;
+}
+.navbar-brand {
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+
+/* Hero */
+
+.hero {
+  margin-top: 4rem;
+  padding: 8rem 0;
+}
+.hero-header {
+  font-weight: 900;
+  font-size: 8rem;
+  font-family: 'Caveat', cursive;
+}
+.hero-subheader{
+  font-size: 2rem;
+}
+
